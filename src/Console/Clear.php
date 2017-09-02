@@ -22,6 +22,17 @@ class Clear extends Command
 
     /**
      * Execute the console command.
+     * @link https://laravel.com/docs/5.5/upgrade#upgrade-5.5.0
+     *
+     * @return void
+     */
+    public function handle()
+    {
+        $this->fire();
+    }
+    
+    /**
+     * Execute the console command.
      */
     public function fire()
     {
